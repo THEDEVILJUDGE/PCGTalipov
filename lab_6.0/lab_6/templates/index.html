@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Transformation</title>
+</head>
+<body>
+    <h1>3D Model Transformation</h1>
+    <form method="POST" action="/">
+        {{ form.hidden_tag() }}
+        <label for="scale">Scale:</label>
+        {{ form.scale() }}
+        <label for="translation">Translation:</label>
+        {{ form.translation() }}
+        <label for="rotation">Rotation:</label>
+        {{ form.rotation() }}
+        {{ form.submit() }}
+    </form>
+    <h2>3D Model</h2>
+    <div>
+        {% if three_d_model %}
+            {{ three_d_model|safe }}
+        {% else %}
+            <p>No model available.</p>
+        {% endif %}
+    </div>
+    <h2>XY Projection</h2>
+    <div>
+        {% if xy_projection %}
+            {{ xy_projection|safe }}
+        {% else %}
+            <p>No projection available.</p>
+        {% endif %}
+    </div>
+    <h2>XZ Projection</h2>
+    <div>
+        {% if xz_projection %}
+            {{ xz_projection|safe }}
+        {% else %}
+            <p>No projection available.</p>
+        {% endif %}
+    </div>
+    <h2>YZ Projection</h2>
+    <div>
+        {% if yz_projection %}
+            {{ yz_projection|safe }}
+        {% else %}
+            <p>No projection available.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

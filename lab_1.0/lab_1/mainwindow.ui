@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVariant">
+    <property name="title">
+     <string>Variant</string>
+    </property>
+    <addaction name="actionRGB_LAB_CMYK"/>
+    <addaction name="actionCMYK_RGB_HSV"/>
+    <addaction name="actionRGB_XYZ_CMYK"/>
+    <addaction name="actionRGB_CMYK_HLS"/>
+    <addaction name="actionRGB_XYZ_HSV"/>
+    <addaction name="actionCMYK_LAB_XYZ"/>
+    <addaction name="actionRGB_XYZ_LAB"/>
+    <addaction name="actionHSV_XYZ_LAB"/>
+    <addaction name="actionRGB_CMYK_HSV"/>
+    <addaction name="action_RGB_HSV_LAB"/>
+    <addaction name="actionCMYK_LAB_RGB"/>
+    <addaction name="actionCMYK_HLS_XYZ"/>
+    <addaction name="actionCMYK_LAB_HSV"/>
+    <addaction name="actionXYZ_LAB_HLS"/>
+    <addaction name="actionRGB_HLS_LAB"/>
+    <addaction name="actionCMYK_RGB_HLS"/>
+    <addaction name="actionRGB_XYZ_HLS"/>
+    <addaction name="actionCMYK_XYZ_RGB"/>
+   </widget>
+   <addaction name="menuVariant"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionRGB_LAB_CMYK">
+   <property name="text">
+    <string>RGB ↔️ LAB ↔️ CMYK </string>
+   </property>
+  </action>
+  <action name="actionCMYK_RGB_HSV">
+   <property name="text">
+    <string>CMYK ↔️ RGB ↔️ HSV </string>
+   </property>
+  </action>
+  <action name="actionRGB_XYZ_CMYK">
+   <property name="text">
+    <string>RGB ↔️ XYZ ↔️ CMYK </string>
+   </property>
+  </action>
+  <action name="actionRGB_CMYK_HLS">
+   <property name="text">
+    <string>RGB ↔️ CMYK ↔️ HLS </string>
+   </property>
+  </action>
+  <action name="actionRGB_XYZ_HSV">
+   <property name="text">
+    <string>RGB ↔️ XYZ ↔️ HSV </string>
+   </property>
+  </action>
+  <action name="actionCMYK_LAB_XYZ">
+   <property name="text">
+    <string>CMYK ↔️ LAB ↔️ XYZ </string>
+   </property>
+  </action>
+  <action name="actionRGB_XYZ_LAB">
+   <property name="text">
+    <string>RGB ↔️ XYZ ↔️ LAB </string>
+   </property>
+  </action>
+  <action name="actionHSV_XYZ_LAB">
+   <property name="text">
+    <string>HSV ↔️ XYZ ↔️ LAB </string>
+   </property>
+  </action>
+  <action name="actionRGB_CMYK_HSV">
+   <property name="text">
+    <string>RGB ↔️ CMYK ↔️ HSV </string>
+   </property>
+  </action>
+  <action name="action_RGB_HSV_LAB">
+   <property name="text">
+    <string>
+RGB ↔️ HSV ↔️ LAB </string>
+   </property>
+  </action>
+  <action name="actionCMYK_LAB_RGB">
+   <property name="text">
+    <string>CMYK ↔️ LAB ↔️ RGB </string>
+   </property>
+  </action>
+  <action name="actionCMYK_HLS_XYZ">
+   <property name="text">
+    <string>CMYK ↔️ HLS ↔️ XYZ </string>
+   </property>
+  </action>
+  <action name="actionCMYK_LAB_HSV">
+   <property name="text">
+    <string>CMYK ↔️ LAB ↔️ HSV </string>
+   </property>
+  </action>
+  <action name="actionXYZ_LAB_HLS">
+   <property name="text">
+    <string>XYZ ↔️ LAB ↔️ HLS </string>
+   </property>
+  </action>
+  <action name="actionRGB_HLS_LAB">
+   <property name="text">
+    <string>RGB ↔️ HLS ↔️ LAB </string>
+   </property>
+  </action>
+  <action name="actionCMYK_RGB_HLS">
+   <property name="text">
+    <string>CMYK ↔️ RGB ↔️ HLS </string>
+   </property>
+  </action>
+  <action name="actionRGB_XYZ_HLS">
+   <property name="text">
+    <string>RGB ↔️ XYZ ↔️ HLS </string>
+   </property>
+  </action>
+  <action name="actionCMYK_XYZ_RGB">
+   <property name="text">
+    <string>CMYK ↔️ XYZ ↔️ RGB</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
